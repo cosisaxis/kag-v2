@@ -11,7 +11,7 @@ const Services = () => {
   return (
     <div className='Services' id='services'>
         <div className="left-service">
-            <img src={Image1} alt="" width="400px" />
+            <img src={Image1} alt="" />
             <img src={Image2} alt="" width="500" />
             <img src={Image3} alt="" width="250"/>
             <img src={Image4} alt="" width="150" />
