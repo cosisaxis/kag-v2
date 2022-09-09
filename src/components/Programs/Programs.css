@@ -1,0 +1,37 @@
+.Programs{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 0 2rem;
+}
+
+.programs-heading{
+    display: flex;
+    gap: 5rem;
+    font-weight: bold;
+    font-size: 3rem;
+    justify-content: center;
+    color: white;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.program-categories{
+    display: flex;
+    gap: 1rem;
+}
+
+.categories{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding:2rem;
+    /* gap: 1rem; */
+    color: var(--blue);
+    justify-content: space-between;
+}
+
+.categories:hover{
+    background-color: var(--blue);
+    color: white;
+}
