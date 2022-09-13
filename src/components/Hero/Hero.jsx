@@ -4,7 +4,12 @@ import "./Hero.css";
 import Telephone from "../../assets/telephone.png"
 import Hero1 from "../../assets/hero5.jpeg"
 import Open from "../../assets/open.png"
+import {motion} from 'framer-motion'
+
 const Hero = () => {
+
+  const transition = {type: 'spring', duration: 3}
+
   return (
     <div className="hero">
       <div className="blurriness hero-blurriness"></div>
@@ -12,7 +17,12 @@ const Hero = () => {
         <Header />
         {/* advertisement */}
         <div className="advertisement">
-          <div></div>
+          <motion.div initial={{left: '338px'}}
+          whileInView={{left: '8px'}}
+          transition ={{...transition, type: 'tween'}}
+            >
+            
+          </motion.div>
           <span>The best glass installation company in Florida</span>
         </div>
         {/* header */}
