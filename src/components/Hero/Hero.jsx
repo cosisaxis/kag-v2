@@ -73,21 +73,29 @@ const Hero = () => {
           <button className="btn" id="header-call">call us</button>
         </a>
         {/* contact */}
-       <div className="telephone-number">
+       <motion.div 
+       initial={{right: "-1rem"}}
+       whileInView={{ right: "4rem"}}
+       transition={transition}
+       className="telephone-number">
         <img src={Telephone} alt="" width='40px'/>
         <span>Contact:</span>
         <span>8763019218</span>
-       </div>
+       </motion.div>
        {/* hero images */}
        {/* <img src={Hero1} alt="" className="hero-images" /> */}
        {/* opening hours */} 
-       <div className="hours">
+       <motion.div 
+       initial={{right: "37rem"}}
+       whileInView={{right: "28rem"}}
+       transition={transition}
+       className="hours">
         <img src={Open} alt="" />
         <div>
         <span>Everyday:</span>
         <span>8:30am 5:30pm</span>
         </div>
-       </div>
+       </motion.div>
       </div>
     </div>
   );
