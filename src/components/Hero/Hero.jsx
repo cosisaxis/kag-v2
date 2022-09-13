@@ -7,6 +7,7 @@ import Open from "../../assets/open.png"
 const Hero = () => {
   return (
     <div className="hero">
+      <div className="blurriness hero-blurriness"></div>
       <div className="left">
         <Header />
         {/* advertisement */}

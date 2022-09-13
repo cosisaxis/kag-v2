@@ -154,6 +154,11 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    color: white;
-  
+    color: white;  
+}
+
+.hero-blurriness{
+    width: 22rem;
+    height: 22rem;
+    left: 0;
 }
