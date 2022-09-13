@@ -25,6 +25,8 @@ const Footer = () => {
           <img className="test2" src={Logo} alt="" />
         </div>
       </div>
+      <div className="blurriness footer-blurriness1"></div>
+      <div className="blurriness footer-blurriness2"></div>
     </div>
   );
 };

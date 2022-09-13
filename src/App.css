@@ -41,7 +41,7 @@
 }
 
 .blurriness{
-  background-color: rgb(173, 216, 230);
+  background-color: #0078AA;
   position: absolute;
   border-radius: 50%;
   filter: blur(150px);
