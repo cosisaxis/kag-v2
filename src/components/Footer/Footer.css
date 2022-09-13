@@ -1,0 +1,30 @@
+.Footer-container{
+    position: relative;
+}
+
+.Footer-container>hr{
+    border: 1px solid var(--blue);
+}
+
+.footer{
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    align-items: center;
+    justify-content: center;
+    height: 20rem;
+}
+.socials-footer{
+    display: flex;
+    gap: 4rem;
+}
+
+.test1{
+    width: 4rem;
+    height: 4rem;
+}
+
+.test2{
+    width: 10rem;
+}
