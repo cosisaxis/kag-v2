@@ -72,3 +72,32 @@ object-fit: cover;
     font-size: 1rem;
     gap: 1rem;
 }
+
+@media screen and (max-width: 767px){
+    .Services{
+        flex-direction: column;
+    }
+    .left-service{
+        grid-auto-rows: auto;
+        overflow: hidden;
+        
+    }
+    .left-service > :nth-child(1){
+        width: 7rem;
+        height: 17rem;
+        margin-right: 1rem;
+    }
+    .left-service > :nth-child(2){
+        width: 16rem;
+        height: 10rem;
+    }
+    .left-service > :nth-child(3){
+        width: 7rem;
+        height: 6rem;
+        
+    }
+    .left-service > :nth-child(4){
+        width: 7rem;
+        height: 6rem;
+    }
+}
