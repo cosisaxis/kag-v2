@@ -9,6 +9,7 @@ import {motion} from 'framer-motion'
 const Hero = () => {
 
   const transition = {type: 'spring', duration: 3}
+  const mobile = window.innerWidth<=768? true: false;
 
   return (
     <div className="hero">
@@ -17,7 +18,7 @@ const Hero = () => {
         <Header />
         {/* advertisement */}
         <div className="advertisement">
-          <motion.div initial={{left: '338px'}}
+          <motion.div initial={{left: mobile? "178px": "338px" }}
           whileInView={{left: '8px'}}
           transition ={{...transition, type: 'tween'}}
             >
