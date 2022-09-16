@@ -7,7 +7,7 @@ import Directory from "../../assets/directory.png";
 
 const Footer = () => {
   return (
-    <div className="Footer-container">
+    <div className="Footer-container" id="footer">
       <hr />
       <div className="footer">
         <div className="socials-footer">

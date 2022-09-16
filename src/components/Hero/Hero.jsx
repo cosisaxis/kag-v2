@@ -12,7 +12,7 @@ const Hero = () => {
   const mobile = window.innerWidth<=768? true: false;
 
   return (
-    <div className="hero">
+    <div className="hero" id="home">
       <div className="blurriness hero-blurriness"></div>
       <div className="left">
         <Header />

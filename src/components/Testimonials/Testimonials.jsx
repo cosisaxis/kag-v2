@@ -11,7 +11,7 @@ const Testimonials = () => {
 
 
   return (
-   <div className="Testimonials">
+   <div className="Testimonials" id='testimonials'>
    <div className="left-testimonials">
     <span>Testimonials</span>
     <span className='transparent-text'>what they</span>
