@@ -208,6 +208,9 @@
         position: relative;
         background: none;
     }
+    #header-call{
+        display: none;
+    }
     .telephone-number{
         left: 1rem;
         top: 2rem;
@@ -215,8 +218,9 @@
     }
     .hours{
         position: relative;
+        align-self: center;
         top: 2rem;
-        left: 2rem;
+        left: 6rem;
     }
     .hours>img{
         width: 2rem;

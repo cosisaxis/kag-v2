@@ -5,6 +5,7 @@ import Telephone from "../../assets/telephone.png"
 import Hero1 from "../../assets/hero5.jpeg"
 import Open from "../../assets/open.png"
 import {motion} from 'framer-motion'
+import NumberCounter from "number-counter"
 
 const Hero = () => {
 
@@ -46,16 +47,18 @@ const Hero = () => {
         {/* company stats */}
         <div className="stats">
           <div>
-            <span>+15</span>
-            <span>years of experience</span>
+            <span>
+              <NumberCounter end={30} start={10} delay='2' preFix='+'/>
+            </span>
+            <span>Experience</span>
           </div>
           <div>
-            <span>+100</span>
+            <span><NumberCounter end={1000} start={888} delay='2' preFix='+'/></span>
             <span>Finished Jobs</span>
           </div>
           <div>
-            <span>+3</span>
-            <span>Number of employees</span>
+          <span><NumberCounter end={6} start={1} delay='2' preFix='+'/></span>
+            <span>Employees</span>
           </div>
         </div>
         {/* buttons for hero */}
