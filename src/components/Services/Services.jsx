@@ -48,6 +48,10 @@ const Services = () => {
                     <img src={Tick} alt="" width='30px' />
                     <span>power window repair</span>
                 </div>
+                <div>
+                    <img src={Tick} alt="" width='30px' />
+                    <span>rv window installation</span>
+                </div>
             </div>
         </div>
     </div>
